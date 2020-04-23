@@ -9,7 +9,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #f18853 ;
+    background-color: transparent ;
     font-family: "Poppins",sans-serif;
 }
 .logo{
@@ -83,7 +83,7 @@ nav{
         right: 0px;
         height: 92vh;
         top:8vh;
-        background-color: #f18853;
+        background-color:transparent;
         display: flex;
         flex-direction: column;
         align-items: center;
