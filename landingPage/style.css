@@ -27,11 +27,25 @@ nav{
     list-style: none;
 }
 .nav-links a{
+    padding: 15px 20px;
+    margin: 20px 0;
     color: white;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
+    transition: 0.3s;
+
+}
+a:hover{
+    background: #141414;
+    color:whitesmoke;
+    box-shadow: 0 0 5px #141414,
+                0 0 25px #141414,
+                0  0 50px #141414,
+                0 0 100px #141414;
+
+
 }
 .burger{
     display: none;

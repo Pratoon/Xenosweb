@@ -176,7 +176,7 @@ body{
     height: 80px;
     background: #fff;
     text-align: center;
-    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+    /* transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0); */
     transition: 0.5s;
     box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
   }
@@ -275,13 +275,13 @@ body{
   }
 
   ul li:hover:nth-child(6) a {
-    background-color: #37cc19;
+    background-color: #24292e;
   }
   
   ul li:hover:nth-child(6) a::before {
-    background-color: #36a706 ;
+    background-color: #24292e ;
   }
   
   ul li:hover:nth-child(6) a::after {
-    background-color: #3ba72f;
+    background-color: #24292e;
   }
